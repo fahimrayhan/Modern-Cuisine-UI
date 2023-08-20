@@ -1,8 +1,11 @@
+import Link from "next/link";
+
 const Footer = () => {
     return ( 
+        
         <footer className="bg-[#212121]">
             <div className="mx-auto max-w-screen-xl px-4 pb-6 pt-16 sm:px-6 lg:px-8 lg:pt-24 ">
-                <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 ">
+                <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
                     <div className="">
                         <p
                             className="mt-6 max-w-md text-center leading-relaxed text-orange-600 sm:max-w-xs sm:text-left"
@@ -39,55 +42,55 @@ const Footer = () => {
 
                             <ul className="mt-8 space-y-4 text-sm">
                                 <li>
-                                    <a
+                                    <Link
                                         className=" transition hover:/75"
                                         href="/"
                                     >
                                         Find Home
-                                    </a>
+                                    </Link>
                                 </li>
 
                                 <li>
-                                    <a
+                                    <Link
                                         className=" transition hover:/75"
                                         href="/"
                                     >
                                         Home
-                                    </a>
+                                    </Link>
                                 </li>
 
                                 <li>
-                                    <a
+                                    <Link
                                         className=" transition hover:/75"
                                         href="/"
                                     >
                                         House
-                                    </a>
+                                    </Link>
                                 </li>
 
                                 <li>
-                                    <a
+                                    <Link
                                         className=" transition hover:/75"
                                         href="/"
                                     >
                                         Furniture
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a
+                                    <Link
                                         className=" transition hover:/75"
                                         href="/"
                                     >
                                         Clean
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a
+                                    <Link
                                         className=" transition hover:/75"
                                         href="/"
                                     >
                                         Sell Property
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
@@ -97,55 +100,55 @@ const Footer = () => {
 
                             <ul className="mt-8 space-y-4 text-sm">
                                 <li>
-                                    <a
+                                    <Link
                                         className=" transition hover:/75"
                                         href="/"
                                     >
                                         How to Order
-                                    </a>
+                                    </Link>
                                 </li>
 
                                 <li>
-                                    <a
+                                    <Link
                                         className=" transition hover:/75"
                                         href="/"
                                     >
                                         Where We Deliver
-                                    </a>
+                                    </Link>
                                 </li>
 
                                 <li>
-                                    <a
+                                    <Link
                                         className=" transition hover:/75"
                                         href="/"
                                     >
                                         FAQs
-                                    </a>
+                                    </Link>
                                 </li>
 
                                 <li>
-                                    <a
+                                    <Link
                                         className=" transition hover:/75"
                                         href="/"
                                     >
                                         Contact
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a
+                                    <Link
                                         className=" transition hover:/75"
                                         href="/"
                                     >
                                         Terms and Conditions
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a
+                                    <Link
                                         className=" transition hover:/75"
                                         href="/"
                                     >
                                         Privacy Policy
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
@@ -185,7 +188,7 @@ const Footer = () => {
                                 </li>
                                 {/* Phone */}
                                 <li>
-                                    <a
+                                    <Link
                                         className="flex items-center justify-center gap-1.5 "
                                         href="/"
                                     >
@@ -205,11 +208,11 @@ const Footer = () => {
                                         </svg>
 
                                         <span className="md:flex-1 ">+0584 55487 554</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 {/* Email */}
                                 <li>
-                                    <a
+                                    <Link
                                         className="flex items-center justify-center gap-1.5 "
                                         href="/"
                                     >
@@ -229,11 +232,11 @@ const Footer = () => {
                                         </svg>
 
                                         <span className="md:flex-1 ">john@doe.com</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 {/* Time */}
                                 <li>
-                                    <a
+                                    <Link
                                         className="flex items-center justify-center gap-1.5"
                                         href="/"
                                     >
@@ -243,13 +246,13 @@ const Footer = () => {
 
 
                                         <span className="md:flex-1 ">Sta-Fri : 7am-12pm, Mon-Fri:*am-12pm</span>
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                             {/* Social Section */}
                             <ul className="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
                                 <li>
-                                    <a
+                                    <Link
                                         href="/"
                                         rel="noreferrer"
                                         target="_blank"
@@ -268,11 +271,11 @@ const Footer = () => {
                                                 clipRule="evenodd"
                                             />
                                         </svg>
-                                    </a>
+                                    </Link>
                                 </li>
 
                                 <li>
-                                    <a
+                                    <Link
                                         href="/"
                                         rel="noreferrer"
                                         target="_blank"
@@ -291,11 +294,11 @@ const Footer = () => {
                                                 clipRule="evenodd"
                                             />
                                         </svg>
-                                    </a>
+                                    </Link>
                                 </li>
 
                                 <li>
-                                    <a
+                                    <Link
                                         href="/"
                                         rel="noreferrer"
                                         target="_blank"
@@ -312,11 +315,11 @@ const Footer = () => {
                                                 d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
                                             />
                                         </svg>
-                                    </a>
+                                    </Link>
                                 </li>
 
                                 <li>
-                                    <a
+                                    <Link
                                         href="/"
                                         rel="noreferrer"
                                         target="_blank"
@@ -335,7 +338,7 @@ const Footer = () => {
                                                 clipRule="evenodd"
                                             />
                                         </svg>
-                                    </a>
+                                    </Link>
                                 </li>
                                 
                             </ul>
