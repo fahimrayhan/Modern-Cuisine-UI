@@ -1,6 +1,6 @@
 const Header = () => {
     return (  
-        <header className=" sticky top-0 z-30 pt-5">
+        <header className=" sticky top-0 z-100 pt-5">
             <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
                 <div className="flex h-16 items-center justify-between">
                     <div className="md:flex md:items-center md:gap-12">

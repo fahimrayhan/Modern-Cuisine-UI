@@ -18,7 +18,7 @@ const InstallApp = () => {
                         <p className="text-gray-700 text-base md:text-lg">combined with a handful of model sentence structures, to generate
                             Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words therefore.</p>
                     </div>
-                    <div className="flex items-center space-x-3">
+                    <div className="flex justify-center place-content-center md:place-content-start items-center space-x-3">
                         <a href="/" className="w-32 transition duration-300 hover:shadow-lg">
                             <img src="https://kitwind.io/assets/kometa/app-store.png" className="object-cover object-top w-full h-auto mx-auto" alt="" />
                         </a>

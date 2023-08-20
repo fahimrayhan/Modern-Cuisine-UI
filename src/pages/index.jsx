@@ -22,7 +22,8 @@ const Home = () => {
       <div>
 
         <div className="">
-          <div className="bg-gradient-to-r from-white from-70%  to-black to-30%">
+          {/* <div className="bg-gradient-to-r from-white from-70%  to-black to-30%"> */}
+          <div className="bg-[url('/bg_image/frame2.png')] bg-cover bg-no-repeat bg-center ">
             {/* Header */}
             <Header/>
             {/* Main Hero Section */}
