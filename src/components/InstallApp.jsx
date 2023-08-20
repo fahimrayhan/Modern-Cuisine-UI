@@ -1,7 +1,8 @@
-
+import Link from "next/link";
 
 const InstallApp = () => {
     return ( 
+        
         <div className="px-10 py-5  flex justify-between bg-[#FF5F1B] bg-opacity-10 mb-20 shadow-lg">
             <div className="grid sm:grid-cols-1 gap-4 md:grid-cols-2  mx-auto justify-items-center">
                 <div className="m-auto">
@@ -19,12 +20,12 @@ const InstallApp = () => {
                             Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words therefore.</p>
                     </div>
                     <div className="flex justify-center place-content-center md:place-content-start items-center space-x-3">
-                        <a href="/" className="w-32 transition duration-300 hover:shadow-lg">
+                        <Link href="/" className="w-32 transition duration-300 hover:shadow-lg">
                             <img src="https://kitwind.io/assets/kometa/app-store.png" className="object-cover object-top w-full h-auto mx-auto" alt="" />
-                        </a>
-                        <a href="/" className="w-32 transition duration-300 hover:shadow-lg">
+                        </Link>
+                        <Link href="/" className="w-32 transition duration-300 hover:shadow-lg">
                             <img src="https://kitwind.io/assets/kometa/google-play.png" className="object-cover object-top w-full h-auto mx-auto" alt="" />
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 <div className="flex items-center justify-center lg:w-1/2 ">

@@ -1,17 +1,20 @@
+import Link from "next/link";
+
 const ProductCard = () => {
     return ( 
+        
         <div>
             <h1 className="text-4xl font-bold text-center mb-10">Popular <span className="text-orange-600">Dishes</span></h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-6 w-full mb-10 px-10">
                 <div className="bg-white shadow-xl rounded-lg max-w-sm ">
-                    <a href="#">
+                    <Link href="#">
                         <img className="rounded-t-lg p-8" src="/images/food.png" alt="product image" />
-                    </a>
+                    </Link>
                     <div className="px-5 pb-5 grid grid-cols-2">
                         <div className="info">
-                            <a href="#">
+                            <Link href="#">
                                 <h3 className="text-gray-900 font-semibold text-2xl tracking-tight ">Teriyaki Beef</h3>
-                            </a>
+                            </Link>
                             <p className=" text-sm text-gray-500">With Sticky White</p>
                             {/* Ratting */}
                             <div className="flex items-center mt-2.5 mb-3">
@@ -62,14 +65,14 @@ const ProductCard = () => {
                     </div>
                 </div>
                 <div className="bg-white shadow-xl rounded-lg max-w-sm ">
-                    <a href="#">
+                    <Link href="#">
                         <img className="rounded-t-lg p-8 " src="/images/food1.png" alt="product image" />
-                    </a>
+                    </Link>
                     <div className="px-5 pb-5 grid grid-cols-2">
                         <div className="info">
-                            <a href="#">
+                            <Link href="#">
                                 <h3 className="text-gray-900 font-semibold text-2xl tracking-tight ">Teriyaki Beef</h3>
-                            </a>
+                            </Link>
                             <p className=" text-sm text-gray-500">With Sticky White</p>
                             {/* Ratting */}
                             <div className="flex items-center mt-2.5 mb-3">
@@ -236,14 +239,14 @@ const ProductCard = () => {
                     </div>
                 </div>
                 <div className="bg-white shadow-xl rounded-lg max-w-sm ">
-                    <a href="#">
+                    <Link href="#">
                         <img className="rounded-t-lg p-8" src="/images/food7.png" alt="product image" />
-                    </a>
+                    </Link>
                     <div className="px-5 pb-5 grid grid-cols-2">
                         <div className="info">
-                            <a href="#">
+                            <Link href="#">
                                 <h3 className="text-gray-900 font-semibold text-2xl tracking-tight ">Teriyaki Beef</h3>
-                            </a>
+                            </Link>
                             <p className=" text-sm text-gray-500">With Sticky White</p>
                             {/* Ratting */}
                             <div className="flex items-center mt-2.5 mb-3">
